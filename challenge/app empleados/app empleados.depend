@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1647372226 source:c:\users\usuario\desktop\challenge\app empleados\main.c
-	<stdio.h>
-	<stdlib.h>
-	"libreria.h"
-
-1647372095 c:\users\usuario\desktop\challenge\app empleados\libreria.h
-	<stdio.h>
-
