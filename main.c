@@ -28,10 +28,10 @@ void main(){
         i++;
         }
 
-    menor = numMenor(&lista[dim], dim);// envio el array a la funcion(objeto) para obtener el menor valor y gurdarlo en una variable.
-    mayor = numMayor(&lista[dim], dim);// envio el array a la funcion(objeto) para obtener el mayor valor y gurdarlo en una variable.
-    sumaPar = sumPar(&lista[dim], dim);// envio el array a la funcion(objeto) para obtener los valores par, sumarlos y gurdar el valor resultante en una variable.
-    muestra(mayor,menor,suma,sumaPar);// envio las varibles a la funcion(objeto) para mostrar por pantalla.
+    menor = numMenor(&lista[dim], dim);// envio el array a la funcion(metodo) para obtener el menor valor y gurdarlo en una variable.
+    mayor = numMayor(&lista[dim], dim);// envio el array a la funcion(metodo) para obtener el mayor valor y gurdarlo en una variable.
+    sumaPar = sumPar(&lista[dim], dim);// envio el array a la funcion(metodo) para obtener los valores par, sumarlos y gurdar el valor resultante en una variable.
+    muestra(mayor,menor,suma,sumaPar);// envio las varibles a la funcion(metodo) para mostrar por pantalla.
 }
 
 int numMenor(int *a[], int dimencion){
